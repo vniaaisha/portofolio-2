@@ -1,0 +1,217 @@
+body {
+    font-family: Century Gothic;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 25vw;
+    background-image: url(org.jpg);
+    background-size: 100vw 50vw;
+    background-position: center;
+    margin-top: 0px;
+}
+
+.katahead {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    font-size: 5vw;
+    text-shadow: 2px 2px 3px black;
+}
+
+konten {
+    width: 80%;
+    height: full;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+sidebar {
+    background-color: #21a6df;
+    width: 20%;
+    height: 700px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    padding: 10px;
+    margin-left: 8px;
+}
+
+.menu-item {
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+.menu-link {
+    display: block;
+    padding: 16px;
+    margin: 15px;
+    margin-top: 20px;
+    margin-right: 0px;
+    color: white;
+    text-decoration: none;
+    height: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-sizing: content-box;
+    transition: 0.5s;
+    background-color: #21a6df;
+    transition-property: backgound_color 0.3s;
+}
+
+.menu-link:after {
+    content: "";
+    display: none;
+    height: 0px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    background-color: #21a6df;
+    transition: background-color 0.5s;
+}
+
+.menu-link.active,
+.menu-link:hover {
+    background-color: #ffffff;
+    color: #21a6df;
+}
+
+.menu-link.active:after,
+.menu-link:hover:after {
+    display: block;
+}
+
+footer {
+    width: 100%;
+    height: 10vw;
+    background-color: #21a6df;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*beranda*/
+.atas {
+    width: 100%;
+    height: 220px;
+    background-color: #21a6df;
+    border-radius: 30px;
+    display: flex;
+}
+
+.atas .gambar1 img {
+    width: 250px;
+    height: 200px;
+    margin-left: 10x;
+    margin-top: -10px;
+}
+
+.atas h1 {
+    padding: 20px;
+    color: white;
+    font-size: 4vw;
+}
+
+.tengah {
+    width: 100%;
+    height: 220px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+}
+
+.tengah h1 {
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 4vw;
+}
+
+.tengah img {
+    width: 300px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.bawah {
+    width: 100%;
+    height: 220px;
+    background-color: #21a6df;
+    border-radius: 30px;
+    display: flex;
+}
+
+.bawah img {
+    width: 230px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.bawah h1 {
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+    font-size: 4vw;
+}
+
+/*tentang Akoh*/
+.aku {
+    width: 95%;
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 5px #21a6df solid;
+    border-radius: 10px;
+}
+
+.aku img {
+    width: 100px;
+    height: 100px;
+}
+
+.tujuan {
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
+}
+
+.keterangan {
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+}
+
+.keterangan p {
+    padding: 10px;
+}
+
+.copy img {
+    width: 110px;
+    height: 20px;
+
+}
